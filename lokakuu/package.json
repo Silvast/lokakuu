@@ -1,0 +1,23 @@
+{
+  "name": "Lokakuu",
+  "version": "0.0.1",
+  "description": "Ansku!",
+  "repository": "https://github.com/jacekschae/learn-reagent-course-files.git",
+  "private": true,
+  "scripts": {
+    "dev": "shadow-cljs watch app",
+    "release": "shadow-cljs release app",
+    "clean": "rm -rf target && rm -rf public/js",
+    "clean-win": "rmdir /s /q public/js & rmdir /s /q target"
+  },
+  "devDependencies": {
+    "shadow-cljs": "^2.3.30"
+  },
+  "dependencies": {
+    "@material-ui/core": "^3.2.0",
+    "create-react-class": "^15.6.3",
+    "node-sass": "^4.9.4",
+    "react": "^16.3.2",
+    "react-dom": "^16.3.2"
+  }
+}
